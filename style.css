@@ -1,0 +1,114 @@
+body {
+  background:
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+background-color: #300;
+background-size: 100px 100px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  font-family: optima;
+  font-weight: bold;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  color: white;
+  border-radius: 50px 50px;
+  border: 2px solid black;
+  width: 750px;
+  height: 300px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container p {
+  display: flex;
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.text-container {
+  display: inline-flex;
+}
+
+#nouns {
+  color: green;
+  font-weight: bold;
+}
+#verbs {
+  color: black;
+  font-weight: bold;
+}
+#adverbs {
+  color: orange;
+  font-weight: bold;
+}
+#adjectives {
+  color: red;
+  font-weight: bold;
+}
+
+.story-container {
+  color: white;
+  font-weight: bold;
+  width: 850px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.story-container  p{
+  font-family: optima;
+  display: inlin-flex;
+  text-align: justify;
+  padding-right: 25px;
+  padding-left: 25px;
+  line-height: 1.8;
+}
+
+input[type=text] {
+    width: auto;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.noun {
+  color: Green;
+  font-size: 20px;
+}
+
+.verb {
+  color: black;
+  font-size: 20px;
+}
+
+.adverb {
+  color: orange;
+  font-size: 20px;
+}
+
+.adjective {
+  color: red;
+  font-size: 20px;
+}
